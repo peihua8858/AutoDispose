@@ -40,7 +40,7 @@ def build = [
     errorProneJavac: "com.google.errorprone:javac:9+181-r4173-1",
     errorProneCheckApi: "com.google.errorprone:error_prone_check_api:${versions.errorProne}",
     errorProneTestHelpers: "com.google.errorprone:error_prone_test_helpers:${versions.errorProne}",
-    nullAway: 'com.uber.nullaway:nullaway:0.6.0',
+    nullAway: 'com.uber.nullaway:nullaway:0.6.4',
 
     gradlePlugins: [
         android: 'com.android.tools.build:gradle:3.3.1',
